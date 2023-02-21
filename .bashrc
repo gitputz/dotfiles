@@ -108,6 +108,13 @@ xmodmap -e "clear lock"
 alias '?'=duck
 
 
+## DO We use these values
+TMUX_CONFIG="$HOME/.tmux.conf"
+
+# TMUX Related Aliases 
+alias tn='tmux -u -f $TMUX_CONFIG new'    \
+alias ta='tmux -u -f $TMUX_CONFIG attach' \
+alias tt='vi $TMUX_CONFIG'
 
 # View Git status.
 alias gs='git status'
