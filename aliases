@@ -3,6 +3,6 @@ TMUX_CONFIG="$HOME/.tmux.conf"
 
 # TMUX Related Aliases alias
 alias                                 \
-  tn="tmux -u -f $TMUX_CONFIG new"    \
-  ta="tmux -u -f $TMUX_CONFIG attach" \
-  tt="nvim $TMUX_CONFIG"
+  tn='tmux -u -f $TMUX_CONFIG new'    \
+  ta='tmux -u -f $TMUX_CONFIG attach' \
+  tt='vi $TMUX_CONFIG'
