@@ -74,6 +74,7 @@ _open_files_for_editing() {
 
     echo "$FUNCNAME: package 'xdg-utils' or 'exo' is required." >&2
 }
+######################################################################
 
 # Additions made by Lee
 
@@ -90,17 +91,23 @@ then
 fi
 
 
-# Aliases
-alias '?'=duck
-
 # Vi navigation in the Command Line
 set -o vi
+
 
 # Key remap 
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
 # Key remap - Caps_Lock disable
 xmodmap -e "clear lock"
+
+
+## My aliases
+
+# Fast search in the terminal with lynx browser and duckduckgo-lite
+alias '?'=duck
+
+
 
 # View Git status.
 alias gs='git status'
