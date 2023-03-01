@@ -96,9 +96,11 @@ set -o vi
 
 
 # Key remap 
+# Creating a right super key (Super_R) in place of the PrtSc/Menu key on Thinkpads
+
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
-# Key remap - Caps_Lock disable
+# Key remap - Caps_Lock disable on Thinkpads
 xmodmap -e "clear lock"
 
 
