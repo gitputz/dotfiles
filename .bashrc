@@ -103,14 +103,17 @@ set -o vi
 # Key remap - Caps_Lock disable on Thinkpads
 xmodmap -e "clear lock"
 
-
-## My aliases
+############################################################################
+## Lee's aliases:
 
 # Fast search in the terminal with lynx browser and duckduckgo-lite
 alias '?'=duck
 
+# Laziness
+alias ls='ls -la'
 
-## DO We use these values
+
+## David Begin's aliases
 TMUX_CONFIG="$HOME/.tmux.conf"
 
 # TMUX Related Aliases 
