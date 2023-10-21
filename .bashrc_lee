@@ -84,6 +84,8 @@ _open_files_for_editing() {
 # alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 # alias pacdiff=eos-pacdiff
 ################################################################################
+# additions from Lee
+
 
 # Vi in the CLI
 set -o vi
@@ -101,8 +103,6 @@ LYNX_CFG=~/.config/lynx/lynx.cfg; export LYNX_CFG
 
 
 ################################################################################
-# additions from Lee
-
 
 # Added to your PATH
 #
