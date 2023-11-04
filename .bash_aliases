@@ -45,3 +45,12 @@ alias ....='cd ../../../../'
 # Laziness
 alias nv='nvim'
 alias ter='gnome-terminal'
+
+# Shut down gracefully and immediately
+alias shu='shutdown -h now'
+
+# Shut down gracefully after 3 minutes
+alias shu3='shutdown -P +3'
+
+# Reboot
+alias reb='reboot'
