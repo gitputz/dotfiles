@@ -90,6 +90,17 @@ _open_files_for_editing() {
 # Vi in the CLI
 set -o vi
 
+# Bash History
+# To increase the size of bash history let’s say 10000, add the following lines in  ~/.bashrc file:
+HISTSIZE=10000
+HISTFILESIZE=10000
+# Add Date and Timestamp to Bash History
+export HISTTIMEFORMAT='%F, %T '
+# Store History immediately rather than upon session end
+PROMPT_COMMAND='history -a'
+
+
+
 # Powershell
 export PATH=$PATH:/home/user/
 
