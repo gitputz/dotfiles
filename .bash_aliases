@@ -15,7 +15,7 @@ alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'#
 # Typical Ubuntu aliases
 #
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s[0-9]+s//;s/[;&|]s*alert$//''')"'
+# alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s[0-9]+s//;s/[;&|]s*alert$//''')"'
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias egrep='egrep --color=auto'
@@ -25,6 +25,7 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -lrt'
 alias ls='ls --color=auto'
+# alias lm='  
 
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
@@ -37,6 +38,12 @@ alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 # Update the GRUB:
 alias gru='grub2-mkconfig -o /boot/grub2/grub.cfg'
 
+# Navigating the file system
+alias cdu='cd /run/media/user/'
+alias cdlb='cd .local/bin/'
+alias cddcl='cd Documents/Computing/Linux/'
+alias cdcl='cd .config/lynx/'
+
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -45,6 +52,11 @@ alias ....='cd ../../../../'
 # Laziness
 alias nv='nvim'
 alias ter='gnome-terminal'
+alias su='sudo'
+alias sn='snapper'
+alias ex='exit'
+alias fl='flatpak'
+# alias 
 
 # Shut down gracefully and immediately
 alias shu='shutdown -h now'
@@ -54,3 +66,4 @@ alias shu3='shutdown -P +3'
 
 # Reboot
 alias reb='reboot'
+
