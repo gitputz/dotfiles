@@ -129,8 +129,6 @@ if [ -e "$HOME/.bash_aliases" ];then
 	source "$HOME/.bash_aliases"
 fi
 
-## Laziness
-alias ls='ls -la'
 
 # Lightning fast internet search from the command line using the Lynx browser
 alias '?'=duck
