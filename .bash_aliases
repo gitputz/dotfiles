@@ -58,6 +58,10 @@ alias ex='exit'
 alias fl='flatpak'
 # alias 
 
+# Power Options
+# Suspend (aka Sleep)
+alias suspend='sudo systemctl suspend'
+
 # Shut down gracefully and immediately
 alias shu='shutdown -h now'
 
